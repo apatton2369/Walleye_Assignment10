@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>Walleye_Assignment10</Name>
     <RootNamespace>Walleye_Assignment10</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.12</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,10 +22,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="apiPackage\api.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="apiPackage\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="mainPackage\main.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="apiPackage\" />
     <Folder Include="mainPackage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.12" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
