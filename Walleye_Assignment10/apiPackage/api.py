@@ -1,12 +1,14 @@
 
-# Name: {required}
-# email:  {required}
-# Assignment Number: Assignment nn  {required}
-# Due Date:   {required}
-# Course #/Section:   {required}
-# Semester/Year:   {required}
-# Brief Description of the assignment:  {required}
-# Brief Description of what this module does. {Do not copy/paste from a previous assignment. Put some thought into this. required}
+# Name: Alex Patton, Nandini Agarwal
+# email:  pattona6@mail.uc.edu, agarwand@mail.uc.edu
+# Assignment Number: Assignment 10
+# Due Date:   11/14/2024
+# Course #/Section: IS 4010 001
+# Semester/Year:   Fall 2024
+# Brief Description of the assignment:  Execute an API call using a URL
+# Brief Description of what this module does. This module uses an API that stores data regarding
+# various publications of the book, "The Lord of the Rings" and extracts and formats specific data 
+# about the book titles, the author of the book, and its first publication year. 
 # Citations:
 # Anything else that's relevant:
 

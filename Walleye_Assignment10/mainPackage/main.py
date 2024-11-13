@@ -1,3 +1,15 @@
+# Name: Alex Patton, Nandini Agarwal
+# email:  pattona6@mail.uc.edu, agarwand@mail.uc.edu
+# Assignment Number: Assignment 10
+# Due Date:   11/14/2024
+# Course #/Section: IS 4010 001
+# Semester/Year:   Fall 2024
+# Brief Description of the assignment:  Execute an API call using a URL
+# Brief Description of what this module does. This module fetches data from the API and extracts it. 
+# Then the module converts that data into a CSV file.
+# Citations:
+# Anything else that's relevant:
+
 #main.py
 
 from apiPackage.api import OpenLibraryAPIHandler
