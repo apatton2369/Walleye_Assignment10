@@ -1,4 +1,3 @@
-
 # Name: Alex Patton, Nandini Agarwal
 # email:  pattona6@mail.uc.edu, agarwand@mail.uc.edu
 # Assignment Number: Assignment 10
@@ -9,7 +8,8 @@
 # Brief Description of what this module does. This module uses an API that stores data regarding
 # various publications of the book, "The Lord of the Rings" and extracts and formats specific data 
 # about the book titles, the author of the book, and its first publication year. 
-# Citations:
+# Constructs URLs using base endpoints and query parameters, Sends HTTP requests to the Open Library's search API.
+# Citations: https://openlibrary.org/dev/docs/api/search
 # Anything else that's relevant:
 
 # api.py
